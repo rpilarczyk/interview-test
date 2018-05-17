@@ -27,8 +27,8 @@ public class CrazyRepository implements Repository<CrazyAirRequest, CrazyAirResp
         CrazyAirRequest crazyAirRequest = request.get();
 
         // todo: for Example 2 filters
-        Predicate<CrazyAirResponse> origin  = (f) -> f.getDepartureAirportCode().contains(crazyAirRequest.getOrigin());
-        Predicate<CrazyAirResponse> destination  = (f) -> f.getDestinationAirportCode().contains(crazyAirRequest.getDestination());
+        Predicate<CrazyAirResponse> origin  = (p) -> p.getDepartureAirportCode().contains(crazyAirRequest.getOrigin());
+        Predicate<CrazyAirResponse> destination  = (p) -> p.getDestinationAirportCode().contains(crazyAirRequest.getDestination());
 
         return Arrays.asList(CrazyAirResponse.builder()
                         .price(67)

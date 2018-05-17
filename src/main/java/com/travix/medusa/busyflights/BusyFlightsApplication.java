@@ -31,16 +31,21 @@ public class BusyFlightsApplication {
 
 
 	// todo informations
-	/* The time I spent was around two hours with a break to talk to the overseer.
-	   Unfortunately, the task I had to do during work, hence I was not completely
-	   focused on the task. There is definitely order in the packages. Respositories,
-	   Adapters, etc. The repositories does not return exemplary results.
-       RestController annotation should return JSON. There are no tests.
-	   It seems to me that you can see the idea that guided me.
-	   I think that's what it was about.
+	/*  Finally after some recommendations from Kernic I spent four, five hours.
+		To finish this project should be done some of things.
 
-		In my opinion, to do this task very well should be devoted to the task definitely much more time.
+		- set all filters in adapters (date filters, price filters)
+		- add RequestMapping in BusyFlightsApplication class
+		- repository should not be created in adapter
+		- tests should be added
+		- annotation RestController has as result JSON. so is nothing to do with JSON
+		- small refactoring
 
-	   Regards */
+		Please read comments in class
+
+		I dont want to spend to much time for this project.
+
+		I hope that this short example can show my approach to the problem.
+ */
 
 }

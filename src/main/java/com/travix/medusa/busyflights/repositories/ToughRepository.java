@@ -23,7 +23,7 @@ public class ToughRepository implements Repository<ToughJetRequest, ToughJetResp
         ToughJetRequest toughJetRequest = request.get();
 
         // todo: for Example 1 filter
-        Predicate<ToughJetResponse> filter = (f) -> f.getDepartureAirportName().contains(toughJetRequest.getTo());
+        Predicate<ToughJetResponse> filter = (p) -> p.getDepartureAirportName().contains(toughJetRequest.getTo());
 
         return Arrays.asList(ToughJetResponse.builder()
                         .basePrice(56)

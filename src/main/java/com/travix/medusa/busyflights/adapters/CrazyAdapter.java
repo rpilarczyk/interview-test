@@ -10,7 +10,6 @@ import com.travix.medusa.busyflights.search.SearchRequest;
 import com.travix.medusa.busyflights.search.SearchResponse;
 
 import java.util.Collection;
-import java.util.List;
 import java.util.Set;
 
 public class CrazyAdapter implements Adapter {
