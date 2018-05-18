@@ -40,6 +40,7 @@ public class BusyFlightsApplication {
 		- tests should be added
 		- annotation RestController has as result JSON. so is nothing to do with JSON
 		- small refactoring
+		- i never tried to run it (should be done :))
 
 		Please read comments in class
 
